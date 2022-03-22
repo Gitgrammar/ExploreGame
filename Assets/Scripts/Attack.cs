@@ -10,11 +10,8 @@ public class Attack : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-
-            Destroy(gameObject, 0.2f);
-
-            Invoke("ReturnToUserFillOut", 0.9f);
-
+            Invoke("ReturnToUserFillOut", 0.5f);
+            Destroy(gameObject, 0.5f);
         }
 
     }
