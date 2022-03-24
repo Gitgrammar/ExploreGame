@@ -20,7 +20,11 @@ public void GetInputName()
         Debug.Log(name);
         if (creature.Contains(name))
         {
-            Debug.Log("correct");
+            Debug.Log("Correct!");
+        }
+        else
+        {
+            Debug.Log("Wrong!");
         }
 
         inputField.text = "";
