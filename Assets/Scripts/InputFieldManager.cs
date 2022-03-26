@@ -8,6 +8,8 @@ public class InputFieldManager : MonoBehaviour
 {
     InputField inputField;
     string[] creature = { "birds", "mammals", "lizard", "fish" };
+    public Text TextFrame;
+    private string name = "";
 
     void Start()
     {
@@ -16,15 +18,15 @@ public class InputFieldManager : MonoBehaviour
     }
 public void GetInputName()
     {
-        string name = inputField.text;
-        Debug.Log(name);
+        name = inputField.text;
+        Debug.LogFormat(name);
         if (creature.Contains(name))
         {
-            Debug.Log("Correct!");
+            Debug.LogFormat("Correct!");
         }
         else
         {
-            Debug.Log("Wrong!");
+            Debug.LogFormat("Wrong!");
         }
 
         inputField.text = "";
