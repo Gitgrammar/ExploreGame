@@ -36,7 +36,7 @@ public class InputFieldManager : MonoBehaviour
         inputField.text = "";
 
     }
-    void ToWrongeScene() { 
+    void ToWrongScene() { 
     SceneManager.LoadScene("CasesOfWrong");
         }
     void ToCorrectScene()
