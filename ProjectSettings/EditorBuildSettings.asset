@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CasesOfWrong.unity
     guid: d8b470df57af349528186c704f946e5b
+  - enabled: 1
+    path: Assets/Scenes/CasesOfCorrect.unity
+    guid: 415ab126cd747ef4ca71eb8d3c5db874
   m_configObjects: {}
