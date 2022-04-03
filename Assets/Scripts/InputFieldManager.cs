@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class InputFieldManager : MonoBehaviour
 {
     InputField inputField;
-    string[] creature = { "bird", "mammal", "lizard", "fish","vegetable","fruit","egg","crustacean","egg","carrot","banana","turtle","coffee","tomato","cow","pig","tiger"};
+    string[] creature = { "bird", "mammal", "lizard", "fish","vegetable","fruit","egg","crustacean","egg","carrot","banana","turtle","coffee","tomato","cow","pig","tiger","sardin","eagle"};
 
 
     void Start()
