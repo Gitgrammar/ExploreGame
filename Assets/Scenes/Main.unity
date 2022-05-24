@@ -1117,8 +1117,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436908438}
-  m_LocalRotation: {x: 0.087172285, y: 0.89959055, z: 0.21045254, w: -0.37262255}
-  m_LocalPosition: {x: 339.00168, y: -9.666171, z: 370.62167}
+  m_LocalRotation: {x: 0.006343952, y: 0.9931021, z: 0.06445284, w: -0.09774399}
+  m_LocalPosition: {x: 330.77118, y: 2.5385785, z: 345.31607}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2284,6 +2284,10 @@ PrefabInstance:
       propertyPath: m_JumpPower
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 11469404, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 3}
+      propertyPath: m_StationaryTurnSpeed
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 3}
 --- !u!1001 &1122913868
@@ -2654,8 +2658,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263114388}
-  m_LocalRotation: {x: 0.087172285, y: 0.89959055, z: 0.21045254, w: -0.37262255}
-  m_LocalPosition: {x: 339.00168, y: -9.666171, z: 370.62167}
+  m_LocalRotation: {x: -0.049170457, y: -0.0024002686, z: 0.000117851734, w: -0.9987875}
+  m_LocalPosition: {x: 565.3661, y: -233.30249, z: -785.786}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2801,7 +2805,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100700, guid: 427f72e3e110e5145bf4956336b40f6f, type: 3}
       propertyPath: m_Name
-      value: TigerWalk (1)
+      value: Tiger
       objectReference: {fileID: 0}
     - target: {fileID: 400700, guid: 427f72e3e110e5145bf4956336b40f6f, type: 3}
       propertyPath: m_LocalPosition.x
