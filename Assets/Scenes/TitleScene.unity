@@ -266,7 +266,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 336, y: -90}
+  m_AnchoredPosition: {x: 280.6, y: -90}
   m_SizeDelta: {x: 236, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &304462371
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.043137256, g: 0, b: 0.7725491, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -297,10 +297,10 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u30EB\u30FC\u30EB\n\u2460\u52D5\u7269\u3084\u98DF\u3079\u7269\u306B\u3076\u3064\u304B\u3063\u305F\u3089\u82F1\u8A9E\u3067\u30B9\u30DA\u30EB\u3092\u66F8\u3044\u3066\u306D\u3002\n\u2461\uFF15\u56DE\u9023\u7D9A\u6B63\u89E3\u3067\u30AF\u30EA\u30A2\n\u2462\uFF13\u56DE\u9023\u7D9A\u9593\u9055\u3048\u3067\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC"
+  m_Text: "\u30EB\u30FC\u30EB\n\u2460\u52D5\u7269\u3084\u98DF\u3079\u7269\u306B\u3076\u3064\u304B\u3063\u305F\u3089\n\u82F1\u8A9E\u3067\u30B9\u30DA\u30EB\u3092\u66F8\u3044\u3066\u306D\u3002\n\u2461\uFF15\u56DE\u9023\u7D9A\u6B63\u89E3\u3067\u30AF\u30EA\u30A2\u3060\u3088\uFF01\n\u2462\uFF13\u56DE\u9023\u7D9A\u9593\u9055\u3048\u3067\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC\u3060\u3088\uFF01"
 --- !u!222 &304462372
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -537,7 +537,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -553,8 +553,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 54111402}
-  - {fileID: 385489914}
   - {fileID: 1141975829}
+  - {fileID: 385489914}
   - {fileID: 1542634612}
   - {fileID: 304462370}
   m_Father: {fileID: 0}
@@ -605,7 +605,7 @@ RectTransform:
   m_Children:
   - {fileID: 386483494}
   m_Father: {fileID: 941637234}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -914,7 +914,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u306F\u3058\u3081\u308B\u524D\u306B\u8AAD\u3093\u3067\u306D\uFF01\n\n\u904A\u3073\u65B9\n\u2460\u2191\u3067\u307E\u3063\u3059\u3050\n\u2461\u2192\u3067\u53F3\u306B\u5411\u304F\n\u2462\u5DE6\u3067\u2190\u306B\u5411\u304F\n\u2463\u2193\u3067\u53CD\u5BFE\u306B\u5411\u304F\n\u2464\u30B9\u30DA\u30FC\u30B9\u3067\u30B8\u30E3\u30F3\u30D7\u3059\u308B\u3088\uFF01"
+  m_Text: "\u306F\u3058\u3081\u308B\u524D\u306B\u8AAD\u3093\u3067\u306D\uFF01\n\n\u904A\u3073\u65B9\n\u2460\u2191\u3067\u307E\u3063\u3059\u3050\u52D5\u304F\u3088\n\u2461\u2192\u3067\u53F3\u306B\u5411\u304F\u3088\n\u2462\u5DE6\u3067\u2190\u306B\u5411\u304F\u3088\n\u2463\u2193\u3067\u53CD\u5BFE\u306B\u5411\u304F\u3088\n\u2464\u30B9\u30DA\u30FC\u30B9\u3067\u30B8\u30E3\u30F3\u30D7\u3059\u308B\u3088\uFF01"
 --- !u!222 &1542634614
 CanvasRenderer:
   m_ObjectHideFlags: 0
