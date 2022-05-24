@@ -19,7 +19,8 @@ public class Attack : MonoBehaviour
     }
     void ReturnToUserFillOut()
     {
-        SceneManager.LoadScene("UserEntry");
+        DontDestroyOnLoad(gameObject);
+            SceneManager.LoadScene("UserEntry");
         Debug.Log(name);
 
     }
