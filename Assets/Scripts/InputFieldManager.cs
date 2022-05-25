@@ -18,9 +18,9 @@ public class InputFieldManager : MonoBehaviour
     }
     public void GetInputName()
     {
-        string name = inputField.text;
-        Debug.LogFormat(name);
-        if (creature.Contains(name))
+        string ans = inputField.text;
+        Debug.LogFormat(ans);
+        if (creature.Contains(ans))
         {
             
             Debug.LogFormat("Correct!");

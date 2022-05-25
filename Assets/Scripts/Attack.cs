@@ -6,14 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class Attack : MonoBehaviour
 {
-    static string name;
+    static Animator creature;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Player")
         {
             Invoke("ReturnToUserFillOut", 0.5f);
             Destroy(gameObject, 0.5f);
-            name = "tiger";
+            creature = GetComponent<Animator>();
         }
 
     }
@@ -21,7 +21,8 @@ public class Attack : MonoBehaviour
     {
         DontDestroyOnLoad(gameObject);
             SceneManager.LoadScene("UserEntry");
-        Debug.Log(name);
+        creature.transform.localPosition=new Vector3 (10, 200,100);
+        Debug.Log(creature);
 
     }
 }
